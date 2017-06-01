@@ -10,3 +10,7 @@ The visual design can easily be customized and all aspects of the app are implem
 Statically typed, based on the latest React Native components, and with no native dependencies, this is the highest quality codebase you can get.
 
 ![screenshot 1](images/phone.png "Screentshot 1") ![screenshot 2](images/phone2.png "Screentshot 2")
+
+## Prerequisites
+* NodeJS >= 6
+* NPM or Yarn
