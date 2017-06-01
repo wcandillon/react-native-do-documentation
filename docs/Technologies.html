@@ -226,15 +226,29 @@ The library is extremely robust and has a low barrier to entry.</p>
 It can be quicker to prototype something without it. However, as soon as you actually start to build something, you absolutely need them: The more pressure you put on the type checker, the better.
 This is why React Native DO is using <a href="https://github.com/facebook/flow" target="_blank">Flow</a>, a static type checker for JavaScript.
 Flow enables you to safely refactor your code and catch most of the mistakes you might make.</p>
-<h2 id="expo">Expo</h2>
+<p>To run flow on this project, you can use the command below.</p>
+<pre><code class="lang-bash">$ yarn flow
+</code></pre>
+<p>or </p>
+<pre><code class="lang-bash">$ npm run flow
+</code></pre>
+<h2 id="eslint">ESLint</h2>
+<p>We use eslint to check the quality of the code base. To lint the source code, you can use the command below.</p>
+<pre><code>$ yarn lint
+</code></pre><p>or </p>
+<pre><code>$ npm run lint
+</code></pre><h2 id="expo">Expo</h2>
 <p>The project is using <a href="https://github.com/expo" target="_blank">Expo</a>. 
 This means that you don&#x2019;t need to install XCode or Android Studio to develop your app.
 You can test it on an iOS device without buying a developer account from Apple.
 The development app can be shared to beta testers very easily via a link or QR code. As you go further in the development of your app, you might want to &#x201C;detach&#x201D; the project in order to have your own built setup.
 This is useful if you need to write custom native code for instance.</p>
-<p><img src="expo-lifecycle.png" alt="Expo Project Lifecycle" title="Expo Project Lifecycle"></p>
+<p><img src="images/expo-lifecycle.png" alt="Expo Project Lifecycle" title="Expo Project Lifecycle"></p>
 <p>However, expo covers a lot of mobile use cases and it is possible to publish a full-fledged app on the Apple App Store and Google Play Store without &#x201C;detaching&#x201D;.
 Last but not least, expo enables you to update your app instantaneously without any app store update in the same manner as updating an HTML page.</p>
+<h2 id="mobx">MobX</h2>
+<p>We use <a href="https://github.com/mobxjs/mobx" target="_blank">MobX</a> for the state management in this project.
+Please checkout the documentation of this project and you can also look <a href="https://docs.nativebase.io/docs/MobxCounterExample.html" target="_blank">this example</a> from NativeBase.</p>
 
                                 
                                 </section>
@@ -278,7 +292,7 @@ Last but not least, expo enables you to update your app instantaneously without 
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Technologies","level":"1.2","depth":1,"next":{"title":"Installation","level":"1.3","depth":1,"path":"Installation.md","ref":"Installation.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Technologies.md","mtime":"2017-05-17T08:06:30.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-21T08:49:47.758Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Technologies","level":"1.2","depth":1,"next":{"title":"Installation","level":"1.3","depth":1,"path":"Installation.md","ref":"Installation.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Technologies.md","mtime":"2017-06-01T07:35:04.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-01T07:35:15.437Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
