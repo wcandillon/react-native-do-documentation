@@ -19,6 +19,18 @@ It can be quicker to prototype something without it. However, as soon as you act
 This is why React Native DO is using [Flow](https://github.com/facebook/flow), a static type checker for JavaScript.
 Flow enables you to safely refactor your code and catch most of the mistakes you might make.
 
+To run flow on this project, you can use the command below.
+
+```bash
+$ yarn flow
+```
+
+or 
+
+```bash
+$ npm run flow
+```
+
 ## Expo
 
 The project is using [Expo](https://github.com/expo). 
@@ -27,7 +39,7 @@ You can test it on an iOS device without buying a developer account from Apple.
 The development app can be shared to beta testers very easily via a link or QR code. As you go further in the development of your app, you might want to “detach” the project in order to have your own built setup.
 This is useful if you need to write custom native code for instance.
 
-![Expo Project Lifecycle](expo-lifecycle.png "Expo Project Lifecycle")
+![Expo Project Lifecycle](images/expo-lifecycle.png "Expo Project Lifecycle")
 
 However, expo covers a lot of mobile use cases and it is possible to publish a full-fledged app on the Apple App Store and Google Play Store without “detaching”.
 Last but not least, expo enables you to update your app instantaneously without any app store update in the same manner as updating an HTML page.
