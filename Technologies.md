@@ -31,6 +31,20 @@ or
 $ npm run flow
 ```
 
+## ESLint
+
+We use eslint to check the quality of the code base. To lint the source code, you can use the command below.
+
+```
+$ yarn lint
+```
+
+or 
+
+```
+$ npm run lint
+```
+
 ## Expo
 
 The project is using [Expo](https://github.com/expo). 
@@ -43,3 +57,9 @@ This is useful if you need to write custom native code for instance.
 
 However, expo covers a lot of mobile use cases and it is possible to publish a full-fledged app on the Apple App Store and Google Play Store without “detaching”.
 Last but not least, expo enables you to update your app instantaneously without any app store update in the same manner as updating an HTML page.
+
+## MobX
+
+We use [MobX](https://github.com/mobxjs/mobx) for the state management in this project.
+Please checkout the documentation of this project and you can also look [this example](https://docs.nativebase.io/docs/MobxCounterExample.html) from NativeBase.
+
