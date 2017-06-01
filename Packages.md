@@ -1,4 +1,4 @@
-#Packages Used
+# Packages Used
  
 ```json
 {
@@ -41,8 +41,10 @@
         "expo": "^16.0.0",
         "jest-junit-reporter": "^1.1.0",
         "lodash": "^4.17.4",
+        "mobx": "^3.1.9",
+        "mobx-react": "^4.1.8",
         "moment": "^2.18.1",
-        "native-base": "^2.1.3",
+        "native-base": "2.1.3",
         "react": "16.0.0-alpha.6",
         "react-native": "^0.43.4",
         "react-native-card-carousel": "git+https://github.com/wcandillon/react-native-card-carousel#6dc8048",
