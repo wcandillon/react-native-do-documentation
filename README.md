@@ -1,6 +1,6 @@
 # React Native DO
 
-![demo](images/react-native-do.gif "Starter Kit Demo")
+<img src="images/react-native-do.gif" width="300" style="margin: 16px;" />
 
 Author: [William Candillon](http://github.com/wcandillon)
 

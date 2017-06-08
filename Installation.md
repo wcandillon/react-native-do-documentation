@@ -32,3 +32,11 @@ yarn
     * Method Two:
         * Make sure you have an Android emulator installed and running.
         * Type npm `run android` in your terminal.
+        
+## Seed Project
+
+Once you are ready to use this template for your own project, you might want to remove some screens.
+The entry point of the app is `App.js`, this file contains the all the screens of the app organized into navigation routes.
+Once you removed the unnecessary routes, you can remove the folder that correspond to the screens you would like to remove.
+For instance, if you would like to remove the Overview screen, you need to remove its references from `App.js` and remove the `src/overview` folder.
+It's that simple.
