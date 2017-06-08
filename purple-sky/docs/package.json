@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gitbook": "gitbook",
-    "build": "gitbook build . docs && gitbook build . purple-sky && cp purple-sky-images/ purple-sky/images",
+    "build": "gitbook build . docs && gitbook build . purple-sky && cp -R purple-sky-images/ purple-sky/images",
     "start": "gitbook serve"
   },
   "repository": {

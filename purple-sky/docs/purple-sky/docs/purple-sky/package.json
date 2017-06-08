@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "gitbook": "gitbook",
     "build": "gitbook build . docs && gitbook build . purple-sky",
-    "serve": "gitbook serve"
+    "start": "gitbook serve"
   },
   "repository": {
     "type": "git",

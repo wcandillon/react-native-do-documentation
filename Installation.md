@@ -1,3 +1,7 @@
+# Prerequisites
+* NodeJS >= 6
+* NPM or Yarn
+
 # Installation
 
 * **Opt #1. Download ZIP**

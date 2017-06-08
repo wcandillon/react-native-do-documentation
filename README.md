@@ -10,7 +10,3 @@ This project has been rewritten using es6 with flow annotations for type checkin
 The visual design can easily be customized and all aspects of the app are implemented: from navigation using react-navigation to state management using mobx. Currently this project only works in portrait mode.
 
 <img src="images/phone.png" width="450" style="margin: 16px;" />
-
-## Prerequisites
-* NodeJS >= 6
-* NPM or Yarn
