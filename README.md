@@ -9,7 +9,7 @@ You can use them as turn key solutions for your next project.
 This project has been rewritten using es6 with flow annotations for type checking.
 The visual design can easily be customized and all aspects of the app are implemented: from navigation using react-navigation to state management using mobx. Currently this project only works in portrait mode.
 
-![screenshot 1](images/phone.png "Screentshot 1") ![screenshot 2](images/phone2.png "Screentshot 2")
+<img src="images/phone.png" width="450" style="margin: 16px;" />
 
 ## Prerequisites
 * NodeJS >= 6
