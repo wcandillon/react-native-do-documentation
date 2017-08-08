@@ -1,0 +1,25 @@
+{
+  "name": "react-native-do-documentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gitbook": "gitbook",
+    "build": "gitbook build . docs && gitbook build . purple-sky && cp -R purple-sky-images/ purple-sky/images",
+    "start": "gitbook serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wcandillon/react-native-do-documentation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wcandillon/react-native-do-documentation/issues"
+  },
+  "homepage": "https://github.com/wcandillon/react-native-do-documentation#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.0"
+  }
+}

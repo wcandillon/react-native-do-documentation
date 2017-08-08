@@ -6,7 +6,7 @@ In this guide, we aim to guide you in setting up the app under your own firebase
 ## Using your own Firebase account
 
 To use your own Firebase account for this account, please create a new project and enable email/password authentication.
-<img src="images/firebase/enable-email-notifications.jpg" width="300" style="margin: 16px;" />
+<img src="images/firebase/enable-email-notifications.png" width="300" style="margin: 16px;" />
 
 From there you can go to `settings -> Add Firebase to your web app` and copy the given code snippet in `src/Firebase.js`.
 This is how the beginning of the file looks like:
