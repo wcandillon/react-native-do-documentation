@@ -23,6 +23,8 @@ or
 yarn
 ```
 
+* **Firebase Backend only**: Run the following command `yarn generate`
+
 * **To simulate for iOS**
     * Method One**:
         * Run `npm start` in your terminal.
