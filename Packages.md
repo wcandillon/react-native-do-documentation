@@ -13,10 +13,10 @@
         "eslint-plugin-flowtype": "^2.32.1",
         "eslint-plugin-react": "^6.10.3",
         "exp": "^40.0.2",
-        "flow-bin": "^0.40.0",
-        "jest-expo": "^0.4.0",
-        "react-native-scripts": "0.0.28",
-        "react-test-renderer": "16.0.0-alpha.6"
+        "flow-bin": "^0.49.1",
+        "react-native-scripts": "1.3.1",
+        "jest-expo": "~20.0.0",
+        "react-test-renderer": "16.0.0-alpha.12"
     },
     "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
     "scripts": {
@@ -37,18 +37,18 @@
         "testResultsProcessor": "./node_modules/jest-junit-reporter"
     },
     "dependencies": {
-        "@expo/vector-icons": "^4.0.0",
-        "expo": "^16.0.0",
+        "@expo/vector-icons": "5.2.0",
         "jest-junit-reporter": "^1.1.0",
         "lodash": "^4.17.4",
         "mobx": "^3.1.9",
         "mobx-react": "^4.1.8",
         "moment": "^2.18.1",
-        "native-base": "2.1.3",
-        "react": "16.0.0-alpha.6",
-        "react-native": "^0.43.4",
+        "native-base": "2.3.1",
+        "expo": "^20.0.2",
+        "react": "16.0.0-alpha.12",
+        "react-native": "^0.47.0",
         "react-native-card-carousel": "git+https://github.com/wcandillon/react-native-card-carousel#6dc8048",
-        "react-navigation": "^1.0.0-beta.9"
+        "react-navigation": "^1.0.0-beta.11"
     }
 }
 ```
