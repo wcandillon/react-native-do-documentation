@@ -3,7 +3,7 @@
 ```json
 {
     "name": "react-native-do",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "private": true,
     "devDependencies": {
         "autobind-decorator": "^1.4.0",
@@ -51,4 +51,5 @@
         "react-navigation": "^1.0.0-beta.11"
     }
 }
+
 ```
