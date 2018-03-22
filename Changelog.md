@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1
+* Upgrade to Expo 25
+* Improve eslint checking
+
 ## 1.2.0
 * Refactoring to the latest NativeBase version. No more references to `StyleSheet.flatten()`.
 * Upgrade to latest version of `flow`.
