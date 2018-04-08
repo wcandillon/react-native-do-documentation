@@ -17,7 +17,7 @@
         "exp": "49.2.2",
         "flow-bin": "0.63.1",
         "flow-result-checker": "^0.3.0",
-        "jest-expo": "25.1.0-beta.0",
+        "jest-expo": "^26.0.0",
         "react-native-scripts": "1.11.1",
         "react-test-renderer": "16.0.0-alpha.12"
     },
@@ -40,20 +40,20 @@
         "testResultsProcessor": "./node_modules/jest-junit-reporter"
     },
     "dependencies": {
-        "@expo/vector-icons": "6.2.0",
+        "@expo/vector-icons": "6.3.1",
         "autobind-decorator": "^1.4.0",
         "color": "1.0.3",
-        "expo": "^25.0.0",
+        "expo": "^26.0.0",
         "jest-junit-reporter": "^1.1.0",
         "lodash": "^4.17.4",
         "mobx": "^3.1.9",
         "mobx-react": "^4.1.8",
         "moment": "^2.18.1",
         "native-base": "2.3.1",
-        "react": "16.2.0",
-        "react-native": "https://github.com/expo/react-native/archive/sdk-25.0.0.tar.gz",
+        "react": "16.3.0-alpha.1",
+        "react-native": "https://github.com/expo/react-native/archive/sdk-26.0.0.tar.gz",
         "react-native-card-carousel": "git+https://github.com/wcandillon/react-native-card-carousel#6dc8048",
-        "react-navigation": "1.0.0-beta.19"
+        "react-navigation": "1.5.8"
     }
 }
 ```
