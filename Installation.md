@@ -2,7 +2,7 @@
 * NodeJS >= 6
 * NPM or Yarn
 
-This version has been tested with Node `v8.1.2` and NPM `4.6.1` as well as NPM `5.3.0`.
+This version has been tested with Node `v8.1.2` and NPM `4.6.1` as well as NPM `5.3.0`, and NPM `5.6.0`.
 
 # Installation
 
@@ -38,7 +38,7 @@ yarn
     * Method Two:
         * Make sure you have an Android emulator installed and running.
         * Type npm `run android` in your terminal.
-        
+
 ## Seed Project
 
 Once you are ready to use this template for your own project, you might want to remove some screens.
