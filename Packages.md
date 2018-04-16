@@ -3,7 +3,7 @@
 ```json
 {
     "name": "react-native-do",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "private": true,
     "devDependencies": {
         "babel-eslint": "^8.2.1",
@@ -49,7 +49,7 @@
         "mobx": "^3.1.9",
         "mobx-react": "^4.1.8",
         "moment": "^2.18.1",
-        "native-base": "2.3.1",
+        "native-base": "2.4.1",
         "react": "16.3.0-alpha.1",
         "react-native": "https://github.com/expo/react-native/archive/sdk-26.0.0.tar.gz",
         "react-native-card-carousel": "git+https://github.com/wcandillon/react-native-card-carousel#6dc8048",
