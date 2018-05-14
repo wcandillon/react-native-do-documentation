@@ -3,7 +3,7 @@
 ```json
 {
     "name": "react-native-do",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "private": true,
     "devDependencies": {
         "babel-eslint": "^8.2.1",
@@ -46,8 +46,6 @@
         "expo": "^27.0.0",
         "jest-junit-reporter": "^1.1.0",
         "lodash": "^4.17.4",
-        "mobx": "^3.1.9",
-        "mobx-react": "^4.1.8",
         "moment": "^2.18.1",
         "native-base": "2.4.1",
         "react": "16.3.0-alpha.1",
