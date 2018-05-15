@@ -3,7 +3,7 @@
 ```json
 {
     "name": "react-native-do",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "private": true,
     "devDependencies": {
         "babel-eslint": "^8.2.1",
@@ -41,7 +41,6 @@
     },
     "dependencies": {
         "@expo/vector-icons": "6.3.1",
-        "autobind-decorator": "^1.4.0",
         "color": "1.0.3",
         "expo": "^27.0.0",
         "jest-junit-reporter": "^1.1.0",
@@ -52,7 +51,7 @@
         "react": "16.3.1",
         "react-native": "https://github.com/expo/react-native/archive/sdk-27.0.0.tar.gz",
         "react-native-card-carousel": "git+https://github.com/wcandillon/react-native-card-carousel#6dc8048",
-        "react-navigation": "1.5.8"
+        "react-navigation": "2.0.1"
     }
 }
 ```

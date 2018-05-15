@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.2.5
+* Upgrade to React Navigation 2.0
+
 ## 1.2.4
 * Remove MobX dependency
 
