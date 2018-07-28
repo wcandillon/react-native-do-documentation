@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.2.6
+* Upgrade to Expo 29
+
 ## 1.2.5
 * Upgrade to React Navigation 2.0
 
