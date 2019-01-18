@@ -232,6 +232,7 @@
     <span class="hljs-string">&quot;private&quot;</span>: <span class="hljs-literal">true</span>,
     <span class="hljs-string">&quot;devDependencies&quot;</span>: {
         <span class="hljs-string">&quot;babel-eslint&quot;</span>: <span class="hljs-string">&quot;^8.2.1&quot;</span>,
+        <span class="hljs-string">&quot;babel-preset-expo&quot;</span>: <span class="hljs-string">&quot;^5.0.0&quot;</span>,
         <span class="hljs-string">&quot;eslint&quot;</span>: <span class="hljs-string">&quot;^4.9.0&quot;</span>,
         <span class="hljs-string">&quot;eslint-config-airbnb&quot;</span>: <span class="hljs-string">&quot;^16.1.0&quot;</span>,
         <span class="hljs-string">&quot;eslint-plugin-flowtype&quot;</span>: <span class="hljs-string">&quot;^2.41.0&quot;</span>,
@@ -239,42 +240,38 @@
         <span class="hljs-string">&quot;eslint-plugin-jsx-a11y&quot;</span>: <span class="hljs-string">&quot;^6.0.2&quot;</span>,
         <span class="hljs-string">&quot;eslint-plugin-react&quot;</span>: <span class="hljs-string">&quot;^7.4.0&quot;</span>,
         <span class="hljs-string">&quot;eslint-plugin-react-native&quot;</span>: <span class="hljs-string">&quot;^3.2.1&quot;</span>,
-        <span class="hljs-string">&quot;exp&quot;</span>: <span class="hljs-string">&quot;55.0.5&quot;</span>,
-        <span class="hljs-string">&quot;expo-cli&quot;</span>: <span class="hljs-string">&quot;2.2.0&quot;</span>,
+        <span class="hljs-string">&quot;exp&quot;</span>: <span class="hljs-string">&quot;57.2.1&quot;</span>,
+        <span class="hljs-string">&quot;expo-cli&quot;</span>: <span class="hljs-string">&quot;2.6.14&quot;</span>,
         <span class="hljs-string">&quot;flow-bin&quot;</span>: <span class="hljs-string">&quot;0.63.1&quot;</span>,
         <span class="hljs-string">&quot;flow-result-checker&quot;</span>: <span class="hljs-string">&quot;^0.3.0&quot;</span>,
-        <span class="hljs-string">&quot;jest-expo&quot;</span>: <span class="hljs-string">&quot;^30.0.0&quot;</span>,
+        <span class="hljs-string">&quot;jest-expo&quot;</span>: <span class="hljs-string">&quot;^32.0.0&quot;</span>,
         <span class="hljs-string">&quot;react-native-scripts&quot;</span>: <span class="hljs-string">&quot;1.11.1&quot;</span>,
         <span class="hljs-string">&quot;react-test-renderer&quot;</span>: <span class="hljs-string">&quot;16.0.0-alpha.12&quot;</span>
     },
-    <span class="hljs-string">&quot;main&quot;</span>: <span class="hljs-string">&quot;./node_modules/react-native-scripts/build/bin/crna-entry.js&quot;</span>,
+    <span class="hljs-string">&quot;main&quot;</span>: <span class="hljs-string">&quot;node_modules/expo/AppEntry.js&quot;</span>,
     <span class="hljs-string">&quot;scripts&quot;</span>: {
         <span class="hljs-string">&quot;start&quot;</span>: <span class="hljs-string">&quot;expo-cli start&quot;</span>,
         <span class="hljs-string">&quot;eject&quot;</span>: <span class="hljs-string">&quot;react-native-scripts eject&quot;</span>,
         <span class="hljs-string">&quot;android&quot;</span>: <span class="hljs-string">&quot;react-native-scripts android&quot;</span>,
         <span class="hljs-string">&quot;ios&quot;</span>: <span class="hljs-string">&quot;react-native-scripts ios&quot;</span>,
-        <span class="hljs-string">&quot;test&quot;</span>: <span class="hljs-string">&quot;node node_modules/jest/bin/jest.js&quot;</span>,
-        <span class="hljs-string">&quot;test:watch&quot;</span>: <span class="hljs-string">&quot;node node_modules/jest/bin/jest.js --watch&quot;</span>,
+        <span class="hljs-string">&quot;test&quot;</span>: <span class="hljs-string">&quot;jest&quot;</span>,
+        <span class="hljs-string">&quot;test:watch&quot;</span>: <span class="hljs-string">&quot;jest --watch&quot;</span>,
         <span class="hljs-string">&quot;flow&quot;</span>: <span class="hljs-string">&quot;flow check --show-all-errors | flow-result-checker&quot;</span>,
         <span class="hljs-string">&quot;lint&quot;</span>: <span class="hljs-string">&quot;eslint App.js App.test.js src/&quot;</span>
     },
     <span class="hljs-string">&quot;jest&quot;</span>: {
-        <span class="hljs-string">&quot;preset&quot;</span>: <span class="hljs-string">&quot;jest-expo&quot;</span>,
-        <span class="hljs-string">&quot;transformIgnorePatterns&quot;</span>: [
-            <span class="hljs-string">&quot;node_modules/(?!react-native|react-navigation|expo|native-base-shoutem-theme|@shoutem|react-clone-referenced-element|native-base|@expo|mobx-react)&quot;</span>
-        ],
-        <span class="hljs-string">&quot;testResultsProcessor&quot;</span>: <span class="hljs-string">&quot;./node_modules/jest-junit-reporter&quot;</span>
+        <span class="hljs-string">&quot;preset&quot;</span>: <span class="hljs-string">&quot;jest-expo&quot;</span>
     },
     <span class="hljs-string">&quot;dependencies&quot;</span>: {
         <span class="hljs-string">&quot;@expo/vector-icons&quot;</span>: <span class="hljs-string">&quot;6.3.1&quot;</span>,
         <span class="hljs-string">&quot;color&quot;</span>: <span class="hljs-string">&quot;1.0.3&quot;</span>,
-        <span class="hljs-string">&quot;expo&quot;</span>: <span class="hljs-string">&quot;^30.0.0&quot;</span>,
+        <span class="hljs-string">&quot;expo&quot;</span>: <span class="hljs-string">&quot;^32.0.0&quot;</span>,
         <span class="hljs-string">&quot;jest-junit-reporter&quot;</span>: <span class="hljs-string">&quot;^1.1.0&quot;</span>,
         <span class="hljs-string">&quot;lodash&quot;</span>: <span class="hljs-string">&quot;^4.17.4&quot;</span>,
         <span class="hljs-string">&quot;moment&quot;</span>: <span class="hljs-string">&quot;^2.18.1&quot;</span>,
-        <span class="hljs-string">&quot;native-base&quot;</span>: <span class="hljs-string">&quot;2.4.1&quot;</span>,
-        <span class="hljs-string">&quot;react&quot;</span>: <span class="hljs-string">&quot;16.3.1&quot;</span>,
-        <span class="hljs-string">&quot;react-native&quot;</span>: <span class="hljs-string">&quot;https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz&quot;</span>,
+        <span class="hljs-string">&quot;native-base&quot;</span>: <span class="hljs-string">&quot;2.7.0&quot;</span>,
+        <span class="hljs-string">&quot;react&quot;</span>: <span class="hljs-string">&quot;16.5.0&quot;</span>,
+        <span class="hljs-string">&quot;react-native&quot;</span>: <span class="hljs-string">&quot;https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz&quot;</span>,
         <span class="hljs-string">&quot;react-native-card-carousel&quot;</span>: <span class="hljs-string">&quot;git+https://github.com/wcandillon/react-native-card-carousel#6dc8048&quot;</span>,
         <span class="hljs-string">&quot;react-native-iphone-x-helper&quot;</span>: <span class="hljs-string">&quot;^1.0.3&quot;</span>,
         <span class="hljs-string">&quot;react-navigation&quot;</span>: <span class="hljs-string">&quot;^2.13.0&quot;</span>
@@ -324,7 +321,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Packages","level":"1.5","depth":1,"next":{"title":"Changelog","level":"1.6","depth":1,"path":"Changelog.md","ref":"Changelog.md","articles":[]},"previous":{"title":"Installation","level":"1.4","depth":1,"path":"Installation.md","ref":"Installation.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"React Native DO","gitbook":"*"},"file":{"path":"Packages.md","mtime":"2018-10-16T13:17:00.489Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-16T13:17:20.096Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Packages","level":"1.5","depth":1,"next":{"title":"Changelog","level":"1.6","depth":1,"path":"Changelog.md","ref":"Changelog.md","articles":[]},"previous":{"title":"Installation","level":"1.4","depth":1,"path":"Installation.md","ref":"Installation.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"React Native DO","gitbook":"*"},"file":{"path":"Packages.md","mtime":"2019-01-18T16:56:48.602Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-18T16:57:12.414Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
