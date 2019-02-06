@@ -3,7 +3,7 @@
 ```json
 {
     "name": "react-native-do",
-    "version": "1.2.7",
+    "version": "1.2.8",
     "private": true,
     "devDependencies": {
         "babel-eslint": "^8.2.1",
@@ -25,10 +25,10 @@
     },
     "main": "node_modules/expo/AppEntry.js",
     "scripts": {
-        "start": "expo-cli start",
-        "eject": "react-native-scripts eject",
-        "android": "react-native-scripts android",
-        "ios": "react-native-scripts ios",
+        "start": "expo start",
+        "eject": "expo eject",
+        "android": "expo android",
+        "ios": "expo ios",
         "test": "jest",
         "test:watch": "jest --watch",
         "flow": "flow check --show-all-errors | flow-result-checker",
