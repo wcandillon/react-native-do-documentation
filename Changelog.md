@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.2.9
+* Upgrade to Expo 33
+
 ## 1.2.8
 * Upgrade to Expo 32
 
